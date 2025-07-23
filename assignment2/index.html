@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Blog Page</h2>
+        <ul>
+            <li>Home</li>
+            <li>Blogs</li>
+            <li>Admin</li>
+        </ul>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search by Title" />
+        <select id="authorFilter">
+            <option value="">All Authors</option>
+            <option value="John">John</option>
+            <option value="Jane">Jane</option>
+        </select>
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Tech">Tech</option>
+            <option value="Life">Life</option>
+        </select>
+        <select id="sortDate">
+            <option value="new">Newest First</option>
+            <option value="old">Oldest First</option>
+        </select>
+    </div>
+
+    <div id="blogContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #87cefa;
+    padding: 10px;
+}
+
+.navbar h2 {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    display: inline;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.controls {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.controls input,
+.controls select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.blog-post {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
